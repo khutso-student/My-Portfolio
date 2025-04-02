@@ -1,0 +1,176 @@
+.about-main-wrapper {
+   width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 200px;
+    background-image: url(Images/About\ section\ background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.inner-about-wrapper {
+    /* background-color: #ffffff24; */
+    width: 1000px;
+    height: auto;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0px;
+    gap: 10px;
+}
+
+
+/*--------------------------------------------------------------left side section----------------------------------------------- */
+
+.left-side-wrapper {
+    /* background-color: #00000047; */
+    width: 582px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.about-heading-wrapper {
+    /* background-color: #943d7175; */
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.about-heading-wrapper h1 {
+    color: #fff;
+    font-size: 30px;
+}
+
+.about-heading-wrapper span {
+    font-weight: 400;
+}
+
+.about-sub-heading-wrapper {
+    /* background-color: #943d714f; */
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.about-sub-heading-wrapper h2 {
+    color: #fff;
+    font-weight: 400;
+}
+
+.about-sub-heading-wrapper span {
+    font-weight: 700;
+}
+
+.about-description {
+    /* background-color: #943d7175; */
+    width: 100%;
+    height: auto;
+}
+
+.about-description p {
+    color: #fff;
+    font-size: 15px;
+    text-align: justify;
+}
+
+.my-details {
+    /* background-color: #943d714f; */
+    width: 100%;
+    height: auto;
+}
+
+.my-details li {
+    color: #fff;
+    font-size: 13px;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+    font-weight: 300;
+}
+
+.my-details  li span {
+    font-weight: 700;
+}
+
+
+/*------------------------------------------------------------Buttons-------------------------------------------------- */
+
+.buttons-wrapper {
+    /* background-color: #ffffff36; */
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 10px 0px;
+    gap: 15px;
+    margin-top: 15px;
+}
+.Cv {
+    background: linear-gradient(135deg, #3A2670, #663050);
+    color: white;
+    width: 145px;
+    font-size: 12px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ffffff6e;
+    border-radius: 5px;
+    transition: 0.5s;
+    gap: 10px;
+}
+
+.Cv:hover {
+    border: 1px solid #000;
+    letter-spacing: 1px;
+    transform: scale(0.9);
+}
+
+.touch {
+    background: linear-gradient(135deg,  #663050, #3A2670);
+    color: white;
+    width: 145px;
+    font-size: 12px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #000;
+    border-radius: 5px;
+    transition: 0.5s;
+    gap: 10px;
+}
+
+.touch:hover {
+    border: 1px solid #fff;
+    transform: scale(1.1);
+}
+
+
+/*--------------------------------------------------------Right Side---------------------------------------------- */
+
+.right-side-wrapper {
+    /* background-color: #00000047; */
+    width: 370px;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-image-wrapper {
+    width: auto;
+    height: auto;
+}
+
+.profile-image-wrapper img {
+    width: 300px;
+}

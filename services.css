@@ -1,0 +1,136 @@
+.services-main-wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 200px;
+    background-image: url(Images/Servcies\ section\ background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.services-heading {
+    /* background-color: #ffffff33; */
+    width: 940px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    margin-top: 115px;
+}
+
+.services-heading h1 {
+    color: #fff;
+    font-size: 30px;
+}
+
+.services-heading span {
+    font-weight: 400;
+}
+
+.services-sub-heading {
+    /* background-color: #ffffff17; */
+    width: 940px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.services-sub-heading h2 {
+    color: #fff;
+    font-weight: 400;
+}
+
+.services-sub-heading span {
+    font-weight: 700;
+}
+
+
+
+/*-----------------------------------------------------inner--------------------------------------------*/
+
+.inner-services-wrapper {
+    /* background-color: #ffffff30; */
+    width: 1000px;
+    height: auto;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 0px;
+}
+
+
+.row-wrapper {
+    /* background-color: #663050; */
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+    padding: 10px 0px;
+}
+
+.box-holder {
+    background-color: transparent;
+    border: 1px solid #fff;
+    width: 245px;
+    height: 339px;
+    padding: 15px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+    gap: 10px;
+    transition: all 0.5s;
+}
+
+.box-holder:hover {
+    transform: scale(1.11);
+    background-color: #5c0f3d4d;
+}
+
+.icon-wrapper {
+    background-color: #943d7196;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-wrapper i{
+    color: #fff;
+    font-size: 40px;
+}
+
+.icon-name-wrapper {
+    /* background-color: #ffffff17; */
+    width: auto;
+    height: auto;
+}
+
+.icon-name-wrapper h1 {
+    color: #fff;
+    font-size: 15px;
+}
+
+.icon-description-wrapper {
+    /* background-color: #ffffff45; */
+    width: 215px;
+    height: 160px;
+}
+
+.icon-description-wrapper p {
+    color: #fff;
+    font-size: 12px;
+    text-align: justify;
+}
+
