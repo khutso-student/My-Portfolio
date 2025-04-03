@@ -46,7 +46,7 @@
 
 .about-heading-wrapper h1 {
     color: #fff;
-    font-size: 30px;
+    font-size: 15px;
 }
 
 .about-heading-wrapper span {
@@ -59,11 +59,13 @@
     height: 30px;
     display: flex;
     align-items: center;
+    margin-bottom: 10px;
 }
 
 .about-sub-heading-wrapper h2 {
     color: #fff;
     font-weight: 400;
+    font-size: 35px;
 }
 
 .about-sub-heading-wrapper span {
@@ -173,4 +175,128 @@
 
 .profile-image-wrapper img {
     width: 300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1013px) {
+    .inner-about-wrapper {
+        gap: 45px;
+        width: auto;
+    }
+
+    .left-side-wrapper {
+        width: 479px;
+    }
+
+    .about-sub-heading-wrapper h2 {
+        font-size: 30px;
+    }
+
+    .right-side-wrapper {
+        width: auto;
+    }
+
+    .profile-image-wrapper img {
+        width: 265px;
+    }
+}
+
+@media screen and (max-width: 805px) {
+
+    .about-main-wrapper {
+        height: auto;
+    }
+
+    .inner-about-wrapper {
+        height: auto;
+        flex-direction: column;
+    }
+
+    .left-side-wrapper {
+        width: 701px;
+    }
+
+    .right-side-wrapper {
+        width: 701px;
+        order: 2;
+    }
+    
+
+
+}
+
+@media screen and (max-width: 713px) {
+    .left-side-wrapper {
+        width: 551px;
+    }
+
+    .about-heading-wrapper {
+        width: auto;
+    }
+
+    .about-sub-heading-wrapper {
+        width: auto;
+    }
+
+    .right-side-wrapper {
+        width: 551px;
+    }
+}
+
+
+
+
+@media screen and (max-width: 570px) {
+    .left-side-wrapper {
+        width: 460px;
+    }
+
+    .right-side-wrapper {
+        display: none;
+    }
+
+    .about-description {
+        width: 95%;
+    }
+
+    .my-details {
+        width: 95%;
+    }
+
+    .buttons-wrapper {
+        width: auto;
+    }
+}
+
+
+@media screen and (max-width: 475px) {
+    .left-side-wrapper {
+        width: 378px;
+    }
+
+    .about-sub-heading-wrapper h2 {
+        font-size: 25px;
+    }
+
+}
+
+
+@media screen and (max-width: 390px) {
+    .left-side-wrapper {
+        width: 310px;
+    }
+
+    .about-sub-heading-wrapper h2 {
+        font-size: 20px;
+    }
+
 }

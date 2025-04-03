@@ -203,3 +203,133 @@ body {
     border: 1px solid #000;
     letter-spacing: 2px;
 }
+
+
+
+
+@media screen and (max-width: 1013px) {
+    .header {
+        width: 790px;
+    }
+
+    .inner-container {
+        width: 790px;
+    }
+}
+
+@media screen and (max-width: 805px) {
+    .header {
+        width: 700px;
+        gap: 0px;
+    }
+
+    .logo-wrapper {
+        width: auto;
+    }
+
+    .navlink-wrapper {
+        width: auto;
+        gap: 20px;
+    }
+
+    .contact-me-button-wrapper {
+        width: auto;
+    }
+
+    .inner-container {
+        width: 700px;
+    }
+
+}
+
+@media screen and (max-width: 713px) {
+
+    .header {
+        width: 550px;
+    }
+
+
+
+    .navlink-wrapper {
+        display: none;
+    }
+
+    .inner-container {
+        width: 550px;
+    }
+}
+
+
+
+@media screen and (max-width: 570px) {
+    .header {
+        width: 450px;
+    }
+
+    .inner-container {
+        width: 450px;
+    }
+
+    .fullname {
+        width: auto;
+    }
+
+    .fullname h1 {
+        font-size: 35px;
+    }
+}
+
+
+@media screen and (max-width: 475px) {
+    .header {
+        width: 375px;
+    }
+
+    .inner-container {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .fullname {
+        justify-content: center;
+    }
+
+  .career-name {
+    width: auto;
+    justify-content: center;
+  }
+
+  .description {
+    width: 360px;
+  }
+
+
+}
+
+
+@media screen and (max-width: 390px) {
+    .header {
+        width: 315px;
+    }
+
+    .inner-container {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .fullname h1 {
+        font-size: 27px;
+    }
+
+  .career-name h2 {
+    font-size: 20px;
+  }
+
+  .description {
+    width: 290px;
+  }
+
+
+}

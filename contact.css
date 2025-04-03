@@ -23,7 +23,7 @@
 
 .contact-heading h1 {
     color: #fff;
-    font-size: 30px;
+    font-size: 15px;
     font-weight: 400;
 }
 
@@ -42,6 +42,7 @@
 .contact-sub-heading h2 {
     color: #fff;
     font-weight: 400;
+    font-size: 35px;
 }
 
 .contact-sub-heading span {
@@ -278,3 +279,165 @@
     border: 1px solid #000;
     letter-spacing: 1px;
 }
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1013px) {
+
+ .contact-heading {
+    width: 790px;
+ }
+
+ .contact-sub-heading {
+    width: 790px;
+ }
+
+ .contact-inner-wrapper {
+    width: 790px;
+ }
+
+
+
+
+}
+
+@media screen and (max-width: 805px) {
+    .contact-heading {
+        width: 700px;
+     }
+    
+     .contact-sub-heading {
+        width: 700px;
+     }
+
+     .contact-inner-wrapper {
+        width: 699px;
+        gap: 48px;
+     }
+    
+     .contact-left-side-wrapper {
+        width: 310px;
+     }
+    
+
+    
+
+
+
+}
+
+@media screen and (max-width: 713px) {
+    .contact-heading {
+        width: auto;
+     }
+    
+     .contact-sub-heading {
+        width: auto;
+     }
+
+     .contact-inner-wrapper {
+        width: 551px;
+        flex-direction: column;
+        height: auto;
+        margin-top: 50px;
+     }
+
+
+     .contact-left-side-wrapper {
+        width: 95%;
+     }
+
+     .get-in-touch-text-wrapper {
+        width: auto;
+     }
+
+     .intro-text-wrapper {
+    display: none;
+     }
+    
+     .contact-right-side-wrapper {
+        width: 95%;
+     }
+
+     .form-wrapper {
+        justify-content: center;
+     }
+
+     #name {
+        width: 400px;
+     }
+
+     #email {
+        width: 400px;
+     }
+
+     #message {
+        width: 400px;
+     }
+
+}
+
+
+
+
+@media screen and (max-width: 570px) {
+
+    .contact-inner-wrapper {
+        width: 447px;
+    }
+
+
+
+    
+
+}
+
+
+@media screen and (max-width: 475px) {
+    .contact-inner-wrapper {
+        width: 375px;
+    }
+
+    #name {
+        width: 300px;
+     }
+
+     #email {
+        width: 300px;
+     }
+
+     #message {
+        width: 300px;
+     }
+
+}
+
+
+@media screen and (max-width: 390px) {
+
+    .contact-inner-wrapper {
+        width: 312px;
+    }
+
+    #name {
+        width: 250px;
+     }
+
+     #email {
+        width: 250px;
+     }
+
+     #message {
+        width: 250px;
+     }
+
+}
+

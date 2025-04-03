@@ -23,7 +23,7 @@
 
 .services-heading h1 {
     color: #fff;
-    font-size: 30px;
+    font-size: 15px;
 }
 
 .services-heading span {
@@ -41,6 +41,7 @@
 .services-sub-heading h2 {
     color: #fff;
     font-weight: 400;
+    font-size: 35px;
 }
 
 .services-sub-heading span {
@@ -79,15 +80,15 @@
 .box-holder {
     background-color: transparent;
     border: 1px solid #fff;
-    width: 245px;
-    height: 339px;
-    padding: 15px 0px;
+    width: 236px;
+    height: 269px;
+    padding: 6px 0px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     border-radius: 10px;
-    gap: 10px;
+    gap: 5px;
     transition: all 0.5s;
 }
 
@@ -98,8 +99,8 @@
 
 .icon-wrapper {
     background-color: #943d7196;
-    width: 75px;
-    height: 75px;
+    width: 70px;
+    height: 70px;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -108,7 +109,7 @@
 
 .icon-wrapper i{
     color: #fff;
-    font-size: 40px;
+    font-size: 35px;
 }
 
 .icon-name-wrapper {
@@ -125,12 +126,113 @@
 .icon-description-wrapper {
     /* background-color: #ffffff45; */
     width: 215px;
-    height: 160px;
+    height: 115px;
 }
 
 .icon-description-wrapper p {
     color: #fff;
     font-size: 12px;
     text-align: justify;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 1013px) {
+
+    .services-heading {
+        width: 790px;
+    }
+
+    .services-sub-heading {
+        width: 790px;
+    }
+
+    .inner-services-wrapper {
+        width: 790px;
+    }
+
+
+}
+
+@media screen and (max-width: 805px) {
+
+    .services-heading {
+        width: 700px;
+    }
+
+    .services-sub-heading {
+        width: 700px;
+    }
+
+    .inner-services-wrapper {
+        width: 708px;
+    }
+
+
+}
+
+@media screen and (max-width: 713px) {
+
+    .services-heading {
+        width: auto;
+    }
+
+    .services-sub-heading {
+        width: auto;
+    }
+
+    .inner-services-wrapper {
+        width: auto;
+        gap: 5px;
+    }
+
+
+    .row-wrapper {
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .box-holder {
+        width: 549px;
+    }
+
+    .icon-description-wrapper {
+        width: 95%;
+    }
+
+    .icon-description-wrapper  p {
+        text-align: center;
+    }
+}
+
+
+
+
+@media screen and (max-width: 570px) {
+
+    
+    .box-holder {
+        width: 448px;
+    }
+}
+
+
+@media screen and (max-width: 475px) {
+    .box-holder {
+        width: 375px;
+    }
+
+}
+
+
+@media screen and (max-width: 390px) {
+    .box-holder {
+        width: 305px;
+    }
+
 }
 
