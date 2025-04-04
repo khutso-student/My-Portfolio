@@ -93,7 +93,7 @@
 }
 
 .box-holder:hover {
-    transform: scale(1.11);
+    transform: scale(1.10);
     background-color: #5c0f3d4d;
 }
 

@@ -79,4 +79,34 @@ document.querySelector('.navlink-wrapper').addEventListener('click', (e) => {
     var div = document.getElementById('hidden-links');
     div.classList.toggle('closed');
     div.classList.toggle('open');
+  };
+
+
+//-----------------------------------------------percentage counter----------------------------------
+
+
+  
+  let counters = [80, 75, 50, 80, 76, 65]; // Target percentages
+  let speed = 130; // Speed of counting (lower is faster)
+  let resetTime = 5 * 60 * 1000; // Reset after 5 minutes
+  
+  function startCounters() {
+      counters.forEach((target, index) => {
+          let counter = 0;
+          let interval = setInterval(() => {
+              if (counter >= target) {
+                  clearInterval(interval);
+              } else {
+                  counter++;
+                  document.getElementById("counter" + (index + 1)).innerText = counter + "%";
+              }
+          }, speed);
+      });
+      
+      setTimeout(startCounters, resetTime); // Reset counters every 5 minutes
   }
+  
+  startCounters();
+
+
+
