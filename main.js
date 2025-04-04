@@ -86,7 +86,7 @@ document.querySelector('.navlink-wrapper').addEventListener('click', (e) => {
 
 
   
-  let counters = [80, 75, 50, 80, 76, 65]; // Target percentages
+  let counters = [80, 66, 70, 80, 76, 60]; // Target percentages
   let speed = 130; // Speed of counting (lower is faster)
   let resetTime = 5 * 60 * 1000; // Reset after 5 minutes
   
