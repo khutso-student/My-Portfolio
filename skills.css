@@ -306,5 +306,9 @@
         font-size: 17px;
     } 
 
+    .content-skill-p p {
+        font-size: 10px;
+    }
+
 }
 
