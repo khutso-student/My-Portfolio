@@ -62,13 +62,15 @@
     margin-bottom: 10px;
 }
 
-.about-sub-heading-wrapper h2 {
+.about-sub-heading-wrapper h2 span {
     color: #fff;
     font-weight: 400;
     font-size: 35px;
+    font-family: "Raleway", sans-serif;
 }
 
-.about-sub-heading-wrapper span {
+
+.for-text {
     font-weight: 700;
 }
 
@@ -177,6 +179,39 @@
     width: 300px;
 }
 
+.text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 5s steps(40, end) infinite;
+  }
+  
+  .text:nth-child(1) {
+    animation-delay: 0s;
+  }
+  
+  .text:nth-child(2) {
+    animation-delay: 5s;
+    opacity: 0;
+  }
+  
+  @keyframes typing {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 100%;
+    }
+  }
+  
+  @keyframes blink {
+    50% {
+      opacity: 0;
+    }
+  }
+
 
 
 
@@ -197,7 +232,7 @@
         width: 479px;
     }
 
-    .about-sub-heading-wrapper h2 {
+    .about-sub-heading-wrapper h2 span {
         font-size: 30px;
     }
 
@@ -295,7 +330,7 @@
         width: 310px;
     }
 
-    .about-sub-heading-wrapper h2 {
+    .about-sub-heading-wrapper h2 span {
         font-size: 20px;
     }
 
